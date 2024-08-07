@@ -1,11 +1,14 @@
-import './App.css'
+import './App.css';
+import './components/ContactList'
+import ContactList from './components/ContactList';
 
-function App() {
+const App = () => {
 
 
   return (
     <>
       <h1>Welcome!</h1>
+      <ContactList/>
     </>
   )
 }
